@@ -4,20 +4,128 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
+
     <!-- CSS only -->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-<!-- JavaScript Bundle with Popper -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./node_modules/aos/dist/aos.css" />
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    <style>
+        body{
+            font-family: 'Scheherazade New', serif;
+        }
+    </style>
 </head>
+
+
 <body>
-    <h1>Hello Git!!</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">My Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-    <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi debitis quaerat non odit autem quis a laboriosam. Quo porro ratione repellat, autem vel est quae fuga dignissimos quidem, expedita ut.
-    </p>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Who">Who</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#What">What</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link " href="#Where">Where</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
 
-    <h2>How to install git</h2>
 
+      <!-- 第一格區塊 -->
+      <section id="Who">
+        <div class="container-fluid text-center text-white bg-info py-5">
+            <h1 data-aos="flip-right" >Who Am I</h1>
+            <img src="https://picsum.photos/id/1045/400" class="rounded-circle py-5" alt="" >
+            <h1>I am adventure!</h1>
+          </div>
+
+      </section>
+
+
+      <!-- 第二區塊 -->
+      <section id="What">
+          <div class="container-fluid bg-secondary text-white text-center py-5">
+          <h1>What Am I</h1>
+
+          <p class="py-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero vero nostrum vitae molestias eveniet accusamus magni! Beatae accusamus sit explicabo nemo incidunt commodi nesciunt illo consequatur molestias unde, corporis est?</p>
+      
+
+         <button>Search</button>
+
+         </div>
+     </section>
+
+
+      <!-- 第三區塊 -->
+      <section id="Where">
+          <div class="container-fluid bg-light text-center py-5">
+            <h1 class="pt-5">Where to find me?</h1>
+
+            <div class="row">
+
+                <div class="card col-md-4" data-aos="zoom-out" data-aos-delay="500">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <img src="https://picsum.photos/id/1011/400" alt="">
+                </div>
+
+                <div class="card col-md-4">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <img src="https://picsum.photos/id/1012/400" alt="">
+                </div>
+
+                <div class="card col-md-4">
+                    <div class="card-body">
+                      <h5 class="card-title">Card title</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                      <p class="card-text"></p>
+                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                    <img src="https://picsum.photos/id/1013/400" alt="">
+                </div>
+
+            </div>
+
+
+          </div>
+      </section>
+
+      <footer class="bg-dark text-white text-center py-5">
+          <p>Design by 1109211022 黃亭瑜 &copy;</p>
+      </footer>
+
+      <script src="./node_modules/aos/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+  
 </body>
 </html>

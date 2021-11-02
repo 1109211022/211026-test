@@ -1,0 +1,27 @@
+{
+  "name": "211026-test",
+  "version": "1.0.0",
+  "description": "Bootstrap example",
+  "main": "index.js",
+  "scripts": {
+    "test": "2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1109211022/211026-test.git"
+  },
+  "keywords": [
+    "bootstrap"
+  ],
+  "author": "1109211022yu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1109211022/211026-test/issues"
+  },
+  "homepage": "https://github.com/1109211022/211026-test#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.1.3"
+  }
+}
